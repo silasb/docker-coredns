@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=${1:-006}
+version=${1:-1.1.1}
 name=silasb/coredns
 
 ./build.sh $version

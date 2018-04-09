@@ -18,7 +18,7 @@ dig @127.0.0.1 www.google.com
 ``` sh
 $ docker run -d \
 		--name dns \
-		-v $(PWD)/Corefile:/app/Corefile \
+		-v $(pwd)/Corefile:/app/Corefile \
 		-p 53:53/udp -p 53:53 \
 		silasb/coredns
 ```
